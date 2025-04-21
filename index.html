@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mahsulotlar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <h1>Mahsulot Katologi</h1>
+
+  <div class="controls">
+    <input class="box" type="text" id="searchInput" placeholder="Qidiruv...">
+    <select class="box" id="categoryFilter">
+      <option class="box" value="">Barcha kategoriyalar</option>
+    </select>
+    <select class="box" id="priceSort">
+      <option  value="">Narx bo‘yicha saralash</option>
+      <option value="asc">Narx: o‘sish tartibida</option>
+      <option value="desc">Narx: kamayish tartibida</option>
+    </select>
+  </div>
+
+  <div id="productList" class="product-list"></div>
+  <div id="loading" class="loading">Yuklanmoqda...</div>
+  <footer>
+    <div class="foot">
+      <h3>@ 2024 Mahsulot Katologi</h3>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
